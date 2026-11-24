@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/citivan/',   // QUAN TRỌNG
+  base: '/',   // user site: https://vancv43.github.io/
 })

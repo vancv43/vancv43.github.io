@@ -23,8 +23,8 @@ const siteData = {
       { label: 'ORCID', logo: `${import.meta.env.BASE_URL}images/orcid.svg`, href: 'https://orcid.org/0009-0008-0325-6809' },
       { label: 'GitHub', logo: `${import.meta.env.BASE_URL}images/logo-github.png`, href: 'https://github.com/vancv43' },
       { label: 'LinkedIn', logo: `${import.meta.env.BASE_URL}images/logo-linkedin.png`, href: 'https://www.linkedin.com/in/citi-van-2a7251353/' },
-      { label: 'Swarm Intelligence Textbook', href: '/citivan/swarm-intelligence/' },
-      { label: 'Reviewer Strategy', href: '/citivan/reviewer-strategy/' },
+      { label: 'Swarm Intelligence Textbook', href: `${import.meta.env.BASE_URL}swarm-intelligence/` },
+      { label: 'Reviewer Strategy', href: `${import.meta.env.BASE_URL}reviewer-strategy/` },
     ],
     cvLink: '#',
     heroImage: `${import.meta.env.BASE_URL}images/profile-photo-20261116c.jpg`,
@@ -138,7 +138,7 @@ const siteData = {
       funding: 'Teaching material, PTITHCM',
       role: 'Author',
       period: '2026',
-      link: '/citivan/reviewer-strategy/',
+      link: `${import.meta.env.BASE_URL}reviewer-strategy/`,
     },
     {
       id: 'P07',
@@ -147,7 +147,7 @@ const siteData = {
       funding: 'Teaching material, PTITHCM',
       role: 'Author',
       period: '2026',
-      link: '/citivan/swarm-intelligence/',
+      link: `${import.meta.env.BASE_URL}swarm-intelligence/`,
     },
     {
       id: 'P06',

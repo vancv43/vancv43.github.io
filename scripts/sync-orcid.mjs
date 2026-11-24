@@ -9,7 +9,7 @@ const ORCID_ID = '0009-0008-0325-6809';
 const ORCID_URL = `https://orcid.org/${ORCID_ID}`;
 const SELF_NAMES = ['Chau Van Van', 'Van Van Chau'];
 const DATA_FILE = new URL('../src/data/publications.json', import.meta.url);
-const UA = { 'User-Agent': 'citivan-site-orcid-sync (https://vancv43.github.io/citivan/)' };
+const UA = { 'User-Agent': 'citivan-site-orcid-sync (https://vancv43.github.io/)' };
 const KEEP_TYPES = new Set([
   'journal-article',
   'conference-paper',
